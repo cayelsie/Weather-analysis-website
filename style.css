@@ -1,0 +1,42 @@
+/* Giving our navbar a background color - buth this actually doesn't work for some reason */
+.navbar_custom {
+    background-color: white;
+  }
+
+.latitude_button {
+    padding: 10px;
+    background-color: lightseagreen;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: lightseagreen;
+}
+
+h2 {
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: lightseagreen;
+}
+
+body {
+    background-color: lightgray;
+}
+#vis_image {
+height: 175px;
+width: 175px;
+float: left;
+margin-right: 10px;
+}
+
+#main_image {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
