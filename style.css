@@ -1,14 +1,14 @@
-/* Giving our navbar a background color - buth this actually doesn't work for some reason */
-.navbar_custom {
-    background-color: white;
-  }
+/* Change latitude button to be a little larger, change font and color */
 
 .latitude_button {
     padding: 10px;
     background-color: lightseagreen;
     font-weight: bold;
     font-family:'Times New Roman', Times, serif;
-    color: white;
+}
+
+.white_div {
+    background-color: white;
 }
 
 h1 {
@@ -39,4 +39,8 @@ margin-right: 10px;
     float: left;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.white_container {
+    background-color: white;
 }
