@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Landing-page</title>
+
+<!-- bootstrap and style sheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-</head>
 
+</head>
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -45,48 +47,45 @@
       </ul>
     </div>
   </nav>
-    <div class = "container">
-        <div class = "row">
-            <div class = "col-md-8 white_div">
-                <div class = "col-md-12">
+     <!-- Main body after navbar -->
+     <div class = "container">
+      <div class = "row">
+
+          <!-- Large image and text on left side -->
+          <div class = "col-md-8 white_div">
+              <div class = "col-md-12">
                     <h1>Wind Speed</h1>
                     <hr>
-                      <img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Humidity">
+                      <img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Humidity" class = "vis_image">
                     <br>
                     <p>The correlation between wind speed and latitude is neglible. This result is really not surprising, as wind is driven by the unequal heating across the earth and consequently, movement across air pressure gradients. There are predictable global wind patters, but these occur across the latitudes. </p>
 
             </div>
         </div>
 
-
-    <div class="col-md-4 white_div">
-      <!-- <div class="col-md-12"> -->
-      <h2>Visualizations</h2>
-      <hr>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="temperature.html"><img src="Resources/assets/images/Fig1.png" id="vis_image"
-              alt="Latitude vs. Temperature"></a>
-        </div>
-        <div class="col-md-6">
-          <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" id="vis_image"
-              alt="Latitude vs. Humidity"></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" id="vis_image"
-              alt="Latitude vs. Cloudiness"></a>
-        </div>
-        <div class="col-md-6">
-          <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" id="vis_image"
-              alt="Latitude vs. Wind Speed"></a>
+        <!-- Visualizations section on right -->
+        <div class="col-md-4">
+          <div class="col-md-12 white_div">
+            <h2>Visualizations</h2>
+            <hr>
+            <div class="row">
+              <div class="col 3 col-md-6">
+                <a href="temperature.html"><img src="Resources/assets/images/Fig1.png" class = "vis_image" alt="Latitude vs. Temperature"></a>
+              </div>
+              <div class="col 3 col-md-6">
+                <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" class = "vis_image" alt="Latitude vs. Humidity"></a>
+              </div>  
+              <div class="col 3 col-md-6">
+                <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" class = "vis_image" alt="Latitude vs. Cloudiness"></a>
+              </div>
+              <div class="col 3 col-md-6">
+                <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" class = "vis_image" alt="Latitude vs. Wind Speed"></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    </section>
-</div>
-
   
 
      <!-- jQuery CDN -->
