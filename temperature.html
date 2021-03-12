@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Landing-page</title>
+
+<!-- bootstrap and style sheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-</head>
 
+</head>
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -45,49 +47,46 @@
       </ul>
     </div>
   </nav>
+
+  <!-- Main body after navbar -->
     <div class = "container">
         <div class = "row">
+
+            <!-- Large image and text on left side -->
             <div class = "col-md-8 white_div">
                 <div class = "col-md-12">
                     <h1>Max Temperature</h1>
                     <hr>
-                      <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature">
+                      <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature" width = "100%">
                     <br>
                     <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year the data was gathered.</p>
+                </div>
+            </div>
 
+            <!-- Visualizations section on right -->
+            <div class="col-md-4">
+                <div class="col-md-12 white_div">
+                    <h2>Visualizations</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col 3 col-md-6">
+                            <a href="temperature.html"><img src="Resources/assets/images/Fig1.png" class = "vis_image" alt="Latitude vs. Temperature"></a>
+                        </div>
+                        <div class="col 3 col-md-6">
+                            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" class = "vis_image" alt="Latitude vs. Humidity"></a>
+                        </div>  
+                        <div class="col 3 col-md-6">
+                            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" class = "vis_image" alt="Latitude vs. Cloudiness"></a>
+                        </div>
+                        <div class="col 3 col-md-6">
+                            <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" class = "vis_image" alt="Latitude vs. Wind Speed"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-    <div class="col-md-4 white_div">
-      <!-- <div class="col-md-12"> -->
-      <h2>Visualizations</h2>
-      <hr>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="temperature.html"><img src="Resources/assets/images/Fig1.png" id="vis_image"
-              alt="Latitude vs. Temperature"></a>
-        </div>
-        <div class="col-md-6">
-          <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" id="vis_image"
-              alt="Latitude vs. Humidity"></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" id="vis_image"
-              alt="Latitude vs. Cloudiness"></a>
-        </div>
-        <div class="col-md-6">
-          <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" id="vis_image"
-              alt="Latitude vs. Wind Speed"></a>
-        </div>
-      </div>
     </div>
-    </section>
-</div>
 
-  
 
      <!-- jQuery CDN -->
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -95,4 +94,4 @@
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  
    </body>
- </html>
+</html>

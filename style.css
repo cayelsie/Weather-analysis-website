@@ -28,11 +28,8 @@ h2 {
 body {
     background-color: lightgray;
 }
-#vis_image {
-    height: 175px;
-    width: 175px;
-    float: left;
-    margin-right: 10px;
+.vis_image {
+   width: 100%;
 }
 
 #main_image {
