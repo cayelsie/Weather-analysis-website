@@ -7,6 +7,8 @@
     font-family:'Times New Roman', Times, serif;
 }
 
+/* For white boxes (div) */
+
 .white_div {
     background-color: white;
     margin-top: 15px;
@@ -28,9 +30,14 @@ h2 {
 body {
     background-color: lightgray;
 }
+
+/* For visualization images */
+
 .vis_image {
    width: 100%;
 }
+
+/* For main image on the summary */
 
 #main_image {
     height: 200px;
